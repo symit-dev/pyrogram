@@ -26,6 +26,7 @@ jobs:
 
       - name: Generate API
         run: |
+          make venv
           make api
 
       - name: Run tests
