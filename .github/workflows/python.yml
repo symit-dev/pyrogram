@@ -26,7 +26,7 @@ jobs:
 
       - name: Generate API
         run: |
-          python setup.py generate --api
+          make api
 
       - name: Run tests
         run: |
